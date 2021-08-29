@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="pagina.css/contato.css" />
+    <link href="pagina.css/contato.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <div id = "navbar" class = "nav">
+        <nav class="nav_menu">
+          <ul class="nav_list">
+            <li class = "nav_item"><a href ="index.html" class = "nav_link">Início</a></li>
+            <li class = "nav_item"><a href ="tatuagens.html" class = "nav_link">Tatuagens</a></li>
+            <li class = "nav_item"><a href ="contato.html" class = "nav_link">Contato</a></li>
+            <li class = "nav_item"><a href ="cuidados.html" class = "nav_link">Cuidados</a></li>
+  
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+    <div id = "main-container">
+      <div class = "img-header">
+        <img src = "https://dev.findtattoo.com.br/wp-content/uploads/2020/10/homem-bracos-tatuados-mexendo-n-computador-940x530.jpg" width = "1395px" height = "580px">
+      </div>
+      <div class = "titulo">
+          <h2>Contato</h2>
+          <h1>Fale com a gente!</h1>
+      </div>
+    </div>
+
+    <div id = "container">
+      <div id = "cabeçalho">
+          <h1 id = "titulo">Contato</h1>
+          <p id = "subtitulo">Complete com suas informações</p>
+      </div>
+      <form action = "" id = formulario method = "POST">
+          <div class = "campo">
+              <label for = "nome"><strong>Nome</strong></label>
+              <input type = "text" name = "nome" id = "nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class = "campo">
+              <label for = "sobrenome"><strong>Sobrenome</strong></label>
+              <input type = "text" name = "sobrenome" id = "sobrenome" placeholder="Digite seu sobrenome" required>  
+          </div>
+          <div class = "campo">
+              <label for = "email"><strong>E-mail</strong></label>
+              <input type = "email" name = "email" id = "email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class = "campo">
+              <label for = "msg">Mensagem:</label>
+              <textarea id="msg" name = "msg" placeholder="Escreva uma mensagem..."></textarea>
+          </div>
+          <div class = "button">
+            <input type = "submit" value = "Enviar" id = "btn-submit">
+          </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class = "footer">  
+        <h2>Entre Em Contato</h2>
+        <div class = "footer-text">
+          <br>Dúvidas ou sugestões:</br>
+          <p>estudiotatoo@.com.br</p>
+        </div>
+        <div class = "icons">
+          <ul>
+            <li><ion-icon name="logo-whatsapp" id = "logo-whatsapp"></ion-icon></li>
+            <li><ion-icon name="logo-instagram" id = "logo-instagram"></ion-icon></li>
+          <ul>
+      </div>
+    </footer>
+  
+    
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
